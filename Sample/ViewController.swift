@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        var items = ["Hello","world"]
+        let items = ["Hello","world"]
         for item in items {
             print(item)
         }
